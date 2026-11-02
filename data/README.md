@@ -1,9 +1,47 @@
 # EHOD processed datasets
 
-This directory provides the **complete 2023 processed tensors** for NYC and
-Chicago. `manifest.json` records every file, byte size, SHA-256 checksum,
+The [EHOD data v1 release](https://github.com/wenboyuan55555/EHOD/releases/tag/data-v1)
+provides the **complete 2023 processed tensors** for NYC and Chicago.
+`manifest.json` records every file, byte size, SHA-256 checksum,
 and NumPy shape/dtype. Core data and order-state arrays are stored in
 separate subdirectories for each city.
+
+## Download and extract
+
+From the repository root, run:
+
+```bash
+python scripts/download_data.py --city all
+```
+
+This uses only Python's standard library and verifies both archive and extracted
+file SHA-256 checksums. Downloaded ZIPs are cached in `.downloads/`; files are
+installed under `data/`. Use `--city nyc` or `--city chicago` for a single city,
+`--data-root /path/to/data` (or `EHOD_DATA_ROOT`) to change the data directory,
+and `--download-dir /path/to/downloads` to change the archive cache.
+The full uncompressed dataset contains 28 files totaling 13,362,192,456 bytes.
+Allow about 15 GB of disk space for data and downloads together.
+
+For a manual download:
+
+- [NYC ZIP](https://github.com/wenboyuan55555/EHOD/releases/download/data-v1/ehod-data-v1-nyc.zip)
+- [Chicago ZIP](https://github.com/wenboyuan55555/EHOD/releases/download/data-v1/ehod-data-v1-chicago.zip)
+- [SHA256SUMS](https://github.com/wenboyuan55555/EHOD/releases/download/data-v1/SHA256SUMS)
+- [Archive sizes and checksums](releases/data-v1.json)
+
+Check the ZIP checksums using `sha256sum -c SHA256SUMS` on Linux, or
+`Get-FileHash .downloads/*.zip -Algorithm SHA256` in PowerShell and compare them
+with `SHA256SUMS`. Extract each ZIP **into the repository root**, since archive
+paths already start with `data/`. For example:
+
+```bash
+python -m zipfile -e .downloads/ehod-data-v1-nyc.zip .
+python -m zipfile -e .downloads/ehod-data-v1-chicago.zip .
+```
+
+Git ignores the large arrays; the Release is the complete data distribution.
+The existing code license does not grant additional rights to source datasets;
+the provenance and source terms described below continue to apply.
 
 ## Files
 

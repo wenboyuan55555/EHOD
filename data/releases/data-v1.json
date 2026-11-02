@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "tag": "data-v1",
+  "repository": "wenboyuan55555/EHOD",
+  "release_url": "https://github.com/wenboyuan55555/EHOD/releases/tag/data-v1",
+  "data_manifest": "data/manifest.json",
+  "data_manifest_sha256": "a96049b397e87dcbe812d42ea527fff1d1dc38d9a611c17d499f723a28391086",
+  "total_files": 28,
+  "total_uncompressed_bytes": 13362192456,
+  "assets": [
+    {
+      "city": "nyc",
+      "name": "ehod-data-v1-nyc.zip",
+      "bytes": 935169054,
+      "sha256": "e8c38ab30e4ff6d5adb440c8892937b1877cb193b194c10fd513c6f2954b5b29",
+      "uncompressed_bytes": 12288361357,
+      "files": 14,
+      "url": "https://github.com/wenboyuan55555/EHOD/releases/download/data-v1/ehod-data-v1-nyc.zip"
+    },
+    {
+      "city": "chicago",
+      "name": "ehod-data-v1-chicago.zip",
+      "bytes": 22364511,
+      "sha256": "a81429e76074560f33c816bf29fc90feb7b46e1f2d7f28c6a8a95c676e4e1e3e",
+      "uncompressed_bytes": 1073831099,
+      "files": 14,
+      "url": "https://github.com/wenboyuan55555/EHOD/releases/download/data-v1/ehod-data-v1-chicago.zip"
+    }
+  ]
+}

@@ -4,6 +4,24 @@ Processed datasets, baseline adaptations, and the HCF + EADT implementation for
 hourly origin–destination demand forecasting. Experiments are organized by the
 comparison tables in the paper.
 
+## Download the processed datasets
+
+The complete NYC and Chicago datasets are published in
+[EHOD data v1](https://github.com/wenboyuan55555/EHOD/releases/tag/data-v1).
+The Git checkout includes the data manifest and small metadata files; download
+the arrays before running data checks or experiments:
+
+```bash
+python scripts/download_data.py --city all
+```
+
+The downloader requires only Python's standard library. It downloads one ZIP per
+city, checks each archive's SHA-256, restores the original directory structure,
+and verifies every extracted file against `data/manifest.json`. Existing valid
+data files are reused. Use `--city nyc` or `--city chicago` to download one city.
+Allow about 15 GB of disk space for the full extracted dataset and downloads.
+See [data/README.md](data/README.md) for direct links and manual extraction.
+
 ## Directory layout
 
 ```text
@@ -46,6 +64,7 @@ The CPU smoke check can run without a GPU. Run commands from this directory.
 
 ```bash
 python -m pip install -e .
+python scripts/download_data.py --city all
 python scripts/check_data.py --city all
 python scripts/run_experiment.py --list
 ```
