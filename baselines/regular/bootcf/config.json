@@ -1,0 +1,19 @@
+{
+  "id": "bootcf",
+  "label": "BootCF",
+  "category": "OD-specific",
+  "trainer": "baselines.regular.bootcf.train",
+  "output_type": "directed_od",
+  "variants": [
+    "standalone",
+    "with_eadt"
+  ],
+  "histories": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "eadt_history": 12,
+  "entrypoint": "baselines.regular.bootcf.run"
+}

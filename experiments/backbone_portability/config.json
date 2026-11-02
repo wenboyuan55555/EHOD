@@ -1,0 +1,207 @@
+{
+  "id": "backbone_portability",
+  "paper_label": "tab:backbone-portability",
+  "scope": "event_cells",
+  "histories": [
+    12
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "method": "ha",
+      "variant": "frozen",
+      "label": "HA",
+      "operation": "portability_base"
+    },
+    {
+      "method": "ha",
+      "variant": "with_eadt",
+      "label": "HA + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "xgboost",
+      "variant": "frozen",
+      "label": "XGBoost",
+      "operation": "portability_base"
+    },
+    {
+      "method": "xgboost",
+      "variant": "with_eadt",
+      "label": "XGBoost + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "lstm",
+      "variant": "frozen",
+      "label": "LSTM",
+      "operation": "portability_base"
+    },
+    {
+      "method": "lstm",
+      "variant": "with_eadt",
+      "label": "LSTM + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "duet",
+      "variant": "frozen",
+      "label": "DUET",
+      "operation": "portability_base"
+    },
+    {
+      "method": "duet",
+      "variant": "with_eadt",
+      "label": "DUET + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "stid",
+      "variant": "frozen",
+      "label": "STID",
+      "operation": "portability_base"
+    },
+    {
+      "method": "stid",
+      "variant": "with_eadt",
+      "label": "STID + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "stidgcn",
+      "variant": "frozen",
+      "label": "STIDGCN",
+      "operation": "portability_base"
+    },
+    {
+      "method": "stidgcn",
+      "variant": "with_eadt",
+      "label": "STIDGCN + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "patchstg",
+      "variant": "frozen",
+      "label": "PatchSTG",
+      "operation": "portability_base"
+    },
+    {
+      "method": "patchstg",
+      "variant": "with_eadt",
+      "label": "PatchSTG + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "stdn",
+      "variant": "frozen",
+      "label": "STDN",
+      "operation": "portability_base"
+    },
+    {
+      "method": "stdn",
+      "variant": "with_eadt",
+      "label": "STDN + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "lightst",
+      "variant": "frozen",
+      "label": "LightST",
+      "operation": "portability_base"
+    },
+    {
+      "method": "lightst",
+      "variant": "with_eadt",
+      "label": "LightST + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "strep",
+      "variant": "frozen",
+      "label": "ST-ReP",
+      "operation": "portability_base"
+    },
+    {
+      "method": "strep",
+      "variant": "with_eadt",
+      "label": "ST-ReP + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "stan",
+      "variant": "frozen",
+      "label": "STAN",
+      "operation": "portability_base"
+    },
+    {
+      "method": "stan",
+      "variant": "with_eadt",
+      "label": "STAN + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "cmod",
+      "variant": "frozen",
+      "label": "CMOD",
+      "operation": "portability_base"
+    },
+    {
+      "method": "cmod",
+      "variant": "with_eadt",
+      "label": "CMOD + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "bootcf",
+      "variant": "frozen",
+      "label": "BootCF",
+      "operation": "portability_base"
+    },
+    {
+      "method": "bootcf",
+      "variant": "with_eadt",
+      "label": "BootCF + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "stpro",
+      "variant": "frozen",
+      "label": "STPro",
+      "operation": "portability_base"
+    },
+    {
+      "method": "stpro",
+      "variant": "with_eadt",
+      "label": "STPro + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "odmixer",
+      "variant": "frozen",
+      "label": "ODMixer",
+      "operation": "portability_base"
+    },
+    {
+      "method": "odmixer",
+      "variant": "with_eadt",
+      "label": "ODMixer + EADT",
+      "operation": "portability"
+    },
+    {
+      "method": "hcf",
+      "variant": "frozen",
+      "label": "HCF",
+      "operation": "hcf_event"
+    },
+    {
+      "method": "hcf",
+      "variant": "with_eadt",
+      "label": "HCF + EADT (EHOD)",
+      "operation": "ehod"
+    }
+  ]
+}

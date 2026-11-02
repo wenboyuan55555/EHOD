@@ -1,0 +1,135 @@
+{
+  "id": "event_prediction",
+  "paper_label": "tab:event-baselines",
+  "scope": "event_cells",
+  "histories": [
+    12
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "method": "t3",
+      "variant": "origin",
+      "label": "T3",
+      "operation": "event_origin"
+    },
+    {
+      "method": "t3",
+      "variant": "with_hcf",
+      "label": "T3 + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "fuse",
+      "variant": "origin",
+      "label": "FUSE",
+      "operation": "event_origin"
+    },
+    {
+      "method": "fuse",
+      "variant": "with_hcf",
+      "label": "FUSE + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "concat",
+      "variant": "origin",
+      "label": "Direct concat",
+      "operation": "event_origin"
+    },
+    {
+      "method": "concat",
+      "variant": "with_hcf",
+      "label": "Direct concat + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "ss_moe",
+      "variant": "origin",
+      "label": "SS-MoE",
+      "operation": "event_origin"
+    },
+    {
+      "method": "ss_moe",
+      "variant": "with_hcf",
+      "label": "SS-MoE + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "egaf",
+      "variant": "origin",
+      "label": "EGAF",
+      "operation": "event_origin"
+    },
+    {
+      "method": "egaf",
+      "variant": "with_hcf",
+      "label": "EGAF + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "qa_stgacn",
+      "variant": "origin",
+      "label": "QA-STGACN",
+      "operation": "event_origin"
+    },
+    {
+      "method": "qa_stgacn",
+      "variant": "with_hcf",
+      "label": "QA-STGACN + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "rast",
+      "variant": "origin",
+      "label": "RAST",
+      "operation": "event_origin"
+    },
+    {
+      "method": "rast",
+      "variant": "with_hcf",
+      "label": "RAST + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "cdgon",
+      "variant": "origin",
+      "label": "CDGON",
+      "operation": "event_origin"
+    },
+    {
+      "method": "cdgon",
+      "variant": "with_hcf",
+      "label": "CDGON + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "event_matrix",
+      "variant": "origin",
+      "label": "Event matrix",
+      "operation": "event_origin"
+    },
+    {
+      "method": "event_matrix",
+      "variant": "with_hcf",
+      "label": "Event matrix + HCF",
+      "operation": "event_hcf"
+    },
+    {
+      "method": "hcf",
+      "variant": "frozen",
+      "label": "Frozen HCF",
+      "operation": "hcf_event"
+    },
+    {
+      "method": "ehod",
+      "variant": "full",
+      "label": "EHOD (HCF + EADT)",
+      "operation": "ehod"
+    }
+  ]
+}

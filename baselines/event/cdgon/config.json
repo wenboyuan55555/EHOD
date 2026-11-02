@@ -1,0 +1,13 @@
+{
+  "id": "cdgon",
+  "label": "CDGON",
+  "origin_model": "cdgon",
+  "hcf_mechanism": "cdgon_ode",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.cdgon.run"
+}

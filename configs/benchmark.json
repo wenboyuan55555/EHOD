@@ -1,0 +1,55 @@
+{
+  "year": 2023,
+  "hours": 8760,
+  "history_hours": [1, 3, 6, 12],
+  "event_history_hours": 12,
+  "seeds": [0, 1, 2],
+  "target_hour_splits": {
+    "train": [12, 6720],
+    "validation": [6720, 7728],
+    "test": [7728, 8760]
+  },
+  "split_interval_convention": "start inclusive, end exclusive",
+  "cities": {
+    "nyc": {
+      "zones": 263,
+      "scheduled_events": 470,
+      "invalid_target_hours": [],
+      "event_cells": {"train": 1903607, "validation": 198759, "test": 195162}
+    },
+    "chicago": {
+      "zones": 77,
+      "scheduled_events": 413,
+      "invalid_target_hours": [1682, 8757, 8758, 8759],
+      "event_cells": {"train": 523189, "validation": 46351, "test": 44058}
+    }
+  },
+  "hcf": {
+    "continuous_mode": "hierarchical",
+    "feature_ablation": "no_statistical_priors",
+    "feature_dimension": 41,
+    "magnitude_loss": "decision",
+    "hidden_dimension": 96,
+    "embedding_dimension": 16,
+    "learning_rate": 0.0007,
+    "maximum_epochs": 40,
+    "patience": 8,
+    "run_name": "hierarchical_no_stats_v1",
+    "shared_activation_gate_seed": 0
+  },
+  "eadt": {
+    "backbone": "count_fusion",
+    "event_rank": 32,
+    "hidden_dimension": 128,
+    "node_dimension": 16,
+    "learning_rate": 0.0008,
+    "weight_decay": 0.0002,
+    "batch_size": 16384,
+    "maximum_epochs": 40,
+    "patience": 8,
+    "loss_preset": "validated_three_term",
+    "selection": "balanced",
+    "expectation_cutoff": 0.1,
+    "run_name": "validated_v5_complete_grid"
+  }
+}

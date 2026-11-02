@@ -1,0 +1,61 @@
+{
+  "id": "eadt_attributes",
+  "paper_label": "tab:reviewer-question-ablations",
+  "scope": "event_cells",
+  "histories": [
+    12
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "method": "eadt",
+      "variant": "full",
+      "label": "EHOD (full)",
+      "operation": "ehod"
+    },
+    {
+      "method": "eadt",
+      "variant": "without_type",
+      "label": "w/o type identity",
+      "operation": "eadt_ablation",
+      "arguments": [
+        "--type-mode",
+        "shared"
+      ]
+    },
+    {
+      "method": "eadt",
+      "variant": "without_venue",
+      "label": "w/o venue identity",
+      "operation": "eadt_ablation",
+      "arguments": [
+        "--venue-mode",
+        "shared"
+      ]
+    },
+    {
+      "method": "eadt",
+      "variant": "without_magnitude_update",
+      "label": "w/o magnitude update",
+      "operation": "eadt_ablation",
+      "arguments": [
+        "--head-mode",
+        "activation_only"
+      ]
+    },
+    {
+      "method": "eadt",
+      "variant": "without_activation_update",
+      "label": "w/o activation update",
+      "operation": "eadt_ablation",
+      "arguments": [
+        "--head-mode",
+        "magnitude_only"
+      ]
+    }
+  ]
+}

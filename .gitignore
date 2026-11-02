@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+outputs/
+.release/
+.downloads/
+data/**/*.npy
+data/**/event_edges_h12.npz
+*.pt
+*.pth
+*.log
+.env
+.env.*
+.DS_Store

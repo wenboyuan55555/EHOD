@@ -1,0 +1,51 @@
+{
+  "id": "eadt_mechanism",
+  "paper_label": "tab:ablation-mechanism",
+  "scope": "event_cells",
+  "histories": [
+    12
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "method": "eadt",
+      "variant": "full",
+      "label": "EHOD (full)",
+      "operation": "ehod"
+    },
+    {
+      "method": "eadt",
+      "variant": "without_end_anchor",
+      "label": "w/o end anchor",
+      "operation": "eadt_ablation",
+      "arguments": [
+        "--anchor-mode",
+        "start_only"
+      ]
+    },
+    {
+      "method": "eadt",
+      "variant": "without_od_specificity",
+      "label": "w/o OD specificity",
+      "operation": "eadt_ablation",
+      "arguments": [
+        "--susceptibility-mode",
+        "shared"
+      ]
+    },
+    {
+      "method": "eadt",
+      "variant": "without_time_alignment",
+      "label": "w/o time alignment",
+      "operation": "eadt_ablation",
+      "arguments": [
+        "--event-slot-mode",
+        "shuffle_time"
+      ]
+    }
+  ]
+}

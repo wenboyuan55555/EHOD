@@ -1,0 +1,19 @@
+{
+  "id": "stidgcn",
+  "label": "STIDGCN",
+  "category": "Spatiotemporal",
+  "trainer": "baselines.regular._shared.train_discrete",
+  "output_type": "directed_od",
+  "variants": [
+    "standalone",
+    "with_eadt"
+  ],
+  "histories": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "eadt_history": 12,
+  "entrypoint": "baselines.regular.stidgcn.run"
+}

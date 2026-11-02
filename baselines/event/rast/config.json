@@ -1,0 +1,13 @@
+{
+  "id": "rast",
+  "label": "RAST",
+  "origin_model": "rast",
+  "hcf_mechanism": "retrieval",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.rast.run"
+}

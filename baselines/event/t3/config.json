@@ -1,0 +1,13 @@
+{
+  "id": "t3",
+  "label": "T3",
+  "origin_model": "t3_stid",
+  "hcf_mechanism": "t3_dual",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.t3.run"
+}

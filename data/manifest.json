@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "data/nyc/core_od/normalized/od_log1p_zscore.npy",
+      "bytes": 2423681888,
+      "sha256": "debb084bae1108e4bbb0970c244b5d77109a5983da1fa60df065fa629867fab1",
+      "shape": [
+        8760,
+        263,
+        263
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "data/nyc/core_od/normalized/scaler.npz",
+      "bytes": 516,
+      "sha256": "d27055a35ff20e9e9cf08d8503a92f368424c378d4879242715370d653a0007a"
+    },
+    {
+      "path": "data/nyc/core_od/od_matrix.npy",
+      "bytes": 2423681888,
+      "sha256": "715d6f147faf543706d83907770fc54f58948af137cc8e2c23f8233ba445a7b4",
+      "shape": [
+        8760,
+        263,
+        263
+      ],
+      "dtype": "int32"
+    },
+    {
+      "path": "data/nyc/core_od/time_index.csv",
+      "bytes": 226671,
+      "sha256": "74e5ff2d60e539f81cb047599e6aea8f60f51f61847ad475ab030f2a822e02b7"
+    },
+    {
+      "path": "data/nyc/core_od/zone_index.csv",
+      "bytes": 18618,
+      "sha256": "1b9b879840ce992bc38c6705e83f8e81bd01f7a8897c165efc0d8d2b28bd1aa7"
+    },
+    {
+      "path": "data/nyc/events/event_edges_h12.npz",
+      "bytes": 57575110,
+      "sha256": "f200094b22210bcf4011736a0c64ae140d65f0aa58e24dd1b26526393925efce"
+    },
+    {
+      "path": "data/nyc/events/events.csv",
+      "bytes": 822330,
+      "sha256": "9bb8ee4efb091bec86d36f9df437e1b51dd03a003ea80ec5d6004ff332496f8a"
+    },
+    {
+      "path": "data/nyc/events/text_embeddings.npy",
+      "bytes": 722048,
+      "sha256": "f4248caba4822ebc7de634d635d5c83c3d5d4c0da8cd90862d71e04005fa776f",
+      "shape": [
+        470,
+        384
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "data/nyc/continuous_cache/continuous_hour_destination_last_pickup_second.npy",
+      "bytes": 18431168,
+      "sha256": "fe2ddb2e27186868849dbb151ab62ad0a7e05dd39f5f24a2b70ba2e972baa08c",
+      "shape": [
+        8760,
+        263
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "data/nyc/continuous_cache/continuous_hour_exp_weights.npy",
+      "bytes": 2423681888,
+      "sha256": "b5e550328e38c8208eb49b7f7a63f974526167492503b9fa5071b6d16b255276",
+      "shape": [
+        8760,
+        263,
+        263
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "data/nyc/continuous_cache/continuous_hour_last_pickup_second.npy",
+      "bytes": 18431168,
+      "sha256": "072cf751b7480af82bdb928ab3caa61efb06e583d90e45ebee57305588ac4001",
+      "shape": [
+        8760,
+        263
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "data/nyc/continuous_cache/continuous_hour_quarter_counts.npy",
+      "bytes": 4847363648,
+      "sha256": "c3b979d55fad5292a4389c9a3cea37f11eedce02a1d0543275976cf7b391a785",
+      "shape": [
+        8760,
+        263,
+        263,
+        4
+      ],
+      "dtype": "uint16"
+    },
+    {
+      "path": "data/nyc/continuous_cache/continuous_hour_quarter_destination.npy",
+      "bytes": 36862208,
+      "sha256": "2495047884b33e7054aa245c584bf48d5c5b3b0befcc4677e9ae9b0ef070b53f",
+      "shape": [
+        8760,
+        263,
+        4
+      ],
+      "dtype": "uint32"
+    },
+    {
+      "path": "data/nyc/continuous_cache/continuous_hour_quarter_origin.npy",
+      "bytes": 36862208,
+      "sha256": "18d5e7c3ed9923191c08f761c7dc2af5373cd5845ebeb99f470f9b9e521db207",
+      "shape": [
+        8760,
+        263,
+        4
+      ],
+      "dtype": "uint32"
+    },
+    {
+      "path": "data/chicago/core_od/normalized/od_log1p_zscore.npy",
+      "bytes": 207752288,
+      "sha256": "96f8e22cd75b1e0ddbee621787993d28a88b29eb447f95882f75176dffcf8cbb",
+      "shape": [
+        8760,
+        77,
+        77
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "data/chicago/core_od/normalized/scaler.npz",
+      "bytes": 516,
+      "sha256": "13f1933a6cbb4de163a00274c13e7b7bb3c4d736394d37ee6fdf0c845d8a9a3b"
+    },
+    {
+      "path": "data/chicago/core_od/od_matrix.npy",
+      "bytes": 207752288,
+      "sha256": "83e93f526214a535370053cd9bbf117f6ca10ec31b5ab7f9de8ac1ef0e639bdc",
+      "shape": [
+        8760,
+        77,
+        77
+      ],
+      "dtype": "int32"
+    },
+    {
+      "path": "data/chicago/core_od/time_index.csv",
+      "bytes": 217916,
+      "sha256": "7a53f4dc064720cabd534e11f3415c030950c1e8dd140bd9c9879e3853366b49"
+    },
+    {
+      "path": "data/chicago/core_od/zone_index.csv",
+      "bytes": 8159,
+      "sha256": "d03348a0f6bfa2b19ccd64ffdbf980c876f36707f5622be90f16eeae7ae74f7b"
+    },
+    {
+      "path": "data/chicago/events/event_edges_h12.npz",
+      "bytes": 1176630,
+      "sha256": "acfe60e32f0863b0132c0b5a9626d4c5c8f923f253416278e45fda59e90298eb"
+    },
+    {
+      "path": "data/chicago/events/events.csv",
+      "bytes": 654598,
+      "sha256": "1f247fa99d63f3a3c953141a47b277907d733453d41a9f16e43979663722c320"
+    },
+    {
+      "path": "data/chicago/events/text_embeddings.npy",
+      "bytes": 634496,
+      "sha256": "d4ff855404e987064be80f3f0c67481a97be1ea7df4ef8882b687e75a4fb353a",
+      "shape": [
+        413,
+        384
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "data/chicago/continuous_cache/continuous_hour_destination_last_pickup_second.npy",
+      "bytes": 5396288,
+      "sha256": "01d78c2e369f6427a0f8284e6d9cc32197299c843a57529bf19892cb397873d9",
+      "shape": [
+        8760,
+        77
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "data/chicago/continuous_cache/continuous_hour_exp_weights.npy",
+      "bytes": 207752288,
+      "sha256": "3a782409445c816ff2a63481b1453bf9e64bf8c37c5eec3878092c661355a7dc",
+      "shape": [
+        8760,
+        77,
+        77
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "data/chicago/continuous_cache/continuous_hour_last_pickup_second.npy",
+      "bytes": 5396288,
+      "sha256": "96ac1d0b1e77c306a3b2f260a4bc6191848be63d0b8118f15cc8a0d70d316b75",
+      "shape": [
+        8760,
+        77
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "data/chicago/continuous_cache/continuous_hour_quarter_counts.npy",
+      "bytes": 415504448,
+      "sha256": "6b1c034e0de4491e8a37ed60f81ad2fc73651b49e0094d563654d2c759381523",
+      "shape": [
+        8760,
+        77,
+        77,
+        4
+      ],
+      "dtype": "uint16"
+    },
+    {
+      "path": "data/chicago/continuous_cache/continuous_hour_quarter_destination.npy",
+      "bytes": 10792448,
+      "sha256": "21b89e33aa16e9c4a4e3792ceb24d39ad47713bc41691f90cd97eed75537d6ff",
+      "shape": [
+        8760,
+        77,
+        4
+      ],
+      "dtype": "uint32"
+    },
+    {
+      "path": "data/chicago/continuous_cache/continuous_hour_quarter_origin.npy",
+      "bytes": 10792448,
+      "sha256": "d96378d80d88ad878df8d7432f6bd99fa4774ff3d2331f9153f51c931c91e866",
+      "shape": [
+        8760,
+        77,
+        4
+      ],
+      "dtype": "uint32"
+    }
+  ]
+}

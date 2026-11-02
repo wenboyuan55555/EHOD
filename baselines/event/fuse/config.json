@@ -1,0 +1,13 @@
+{
+  "id": "fuse",
+  "label": "FUSE",
+  "origin_model": "fuse_d2stgnn",
+  "hcf_mechanism": "fuse_cross_attention",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.fuse.run"
+}

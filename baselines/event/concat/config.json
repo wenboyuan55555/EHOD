@@ -1,0 +1,13 @@
+{
+  "id": "concat",
+  "label": "Direct concat",
+  "origin_model": "fuse_concat",
+  "hcf_mechanism": "concat",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.concat.run"
+}

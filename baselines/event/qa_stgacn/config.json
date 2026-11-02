@@ -1,0 +1,13 @@
+{
+  "id": "qa_stgacn",
+  "label": "QA-STGACN",
+  "origin_model": "qa_stgacn",
+  "hcf_mechanism": "qa_query",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.qa_stgacn.run"
+}

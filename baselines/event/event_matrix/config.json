@@ -1,0 +1,13 @@
+{
+  "id": "event_matrix",
+  "label": "Event matrix",
+  "origin_model": "odpf",
+  "hcf_mechanism": "matrix",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.event_matrix.run"
+}

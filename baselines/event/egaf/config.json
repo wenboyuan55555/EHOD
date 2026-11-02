@@ -1,0 +1,13 @@
+{
+  "id": "egaf",
+  "label": "EGAF",
+  "origin_model": "egaf",
+  "hcf_mechanism": "legacy_attention",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.egaf.run"
+}

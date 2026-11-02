@@ -1,0 +1,111 @@
+{
+  "id": "normal_demand",
+  "paper_label": "tab:regular-forecasting",
+  "scope": "full_od",
+  "histories": [
+    12
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "method": "ha",
+      "variant": "standalone",
+      "label": "HA",
+      "operation": "normal"
+    },
+    {
+      "method": "xgboost",
+      "variant": "standalone",
+      "label": "XGBoost",
+      "operation": "normal"
+    },
+    {
+      "method": "lstm",
+      "variant": "standalone",
+      "label": "LSTM",
+      "operation": "normal"
+    },
+    {
+      "method": "duet",
+      "variant": "standalone",
+      "label": "DUET",
+      "operation": "normal"
+    },
+    {
+      "method": "stid",
+      "variant": "standalone",
+      "label": "STID",
+      "operation": "normal"
+    },
+    {
+      "method": "stidgcn",
+      "variant": "standalone",
+      "label": "STIDGCN",
+      "operation": "normal"
+    },
+    {
+      "method": "patchstg",
+      "variant": "standalone",
+      "label": "PatchSTG",
+      "operation": "normal"
+    },
+    {
+      "method": "stdn",
+      "variant": "standalone",
+      "label": "STDN",
+      "operation": "normal"
+    },
+    {
+      "method": "lightst",
+      "variant": "standalone",
+      "label": "LightST",
+      "operation": "normal"
+    },
+    {
+      "method": "strep",
+      "variant": "standalone",
+      "label": "ST-ReP",
+      "operation": "normal"
+    },
+    {
+      "method": "stan",
+      "variant": "standalone",
+      "label": "STAN",
+      "operation": "normal"
+    },
+    {
+      "method": "cmod",
+      "variant": "standalone",
+      "label": "CMOD",
+      "operation": "normal"
+    },
+    {
+      "method": "bootcf",
+      "variant": "standalone",
+      "label": "BootCF",
+      "operation": "normal"
+    },
+    {
+      "method": "stpro",
+      "variant": "standalone",
+      "label": "STPro",
+      "operation": "normal"
+    },
+    {
+      "method": "odmixer",
+      "variant": "standalone",
+      "label": "ODMixer",
+      "operation": "normal"
+    },
+    {
+      "method": "hcf",
+      "variant": "full",
+      "label": "HCF",
+      "operation": "hcf"
+    }
+  ]
+}

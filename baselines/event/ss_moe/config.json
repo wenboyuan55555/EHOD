@@ -1,0 +1,13 @@
+{
+  "id": "ss_moe",
+  "label": "SS-MoE",
+  "origin_model": "ss_moe",
+  "hcf_mechanism": "semantic_spatial_moe",
+  "variants": [
+    "origin",
+    "with_hcf"
+  ],
+  "history": 12,
+  "implementation": "OD task adaptation; not a reproduction of the source dataset/results",
+  "entrypoint": "baselines.event.ss_moe.run"
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.2.1
+transformers==4.46.3

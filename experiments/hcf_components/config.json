@@ -1,0 +1,46 @@
+{
+  "id": "hcf_components",
+  "paper_label": "tab:hcf-components",
+  "scope": "full_od",
+  "histories": [
+    12
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "method": "hcf",
+      "variant": "without_count_fusion",
+      "label": "w/o count fusion",
+      "operation": "normal",
+      "backbone": "stidgcn"
+    },
+    {
+      "method": "hcf",
+      "variant": "without_hurdle",
+      "label": "w/o hurdle factorization",
+      "operation": "hcf_ablation",
+      "prediction_mode": "direct",
+      "feature_ablation": "no_statistical_priors",
+      "run_name": "ablation_direct_count_short_v1"
+    },
+    {
+      "method": "hcf",
+      "variant": "without_short_state",
+      "label": "w/o short-term state",
+      "operation": "hcf_ablation",
+      "prediction_mode": "hurdle",
+      "feature_ablation": "no_stats_no_short_order_state",
+      "run_name": "ablation_no_short_order_state_short_v1"
+    },
+    {
+      "method": "hcf",
+      "variant": "full",
+      "label": "HCF",
+      "operation": "hcf"
+    }
+  ]
+}

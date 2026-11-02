@@ -1,0 +1,78 @@
+matrix_index,community_area,community_name,centroid_lat,centroid_lon,centroid_source
+0,1,Rogers Park,42.00962448120117,-87.670166015625,median of published trip community-area centroids
+1,2,West Ridge,42.00157165527344,-87.69501495361328,median of published trip community-area centroids
+2,3,Uptown,41.96581268310547,-87.65587615966797,median of published trip community-area centroids
+3,4,Lincoln Square,41.97517013549805,-87.68751525878906,median of published trip community-area centroids
+4,5,North Center,41.947792053222656,-87.683837890625,median of published trip community-area centroids
+5,6,Lake View,41.9442253112793,-87.65599822998047,median of published trip community-area centroids
+6,7,Lincoln Park,41.92268753051758,-87.64949035644531,median of published trip community-area centroids
+7,8,Near North Side,41.89915466308594,-87.63096618652344,median of published trip community-area centroids
+8,9,Edison Park,42.00761413574219,-87.81378173828125,median of published trip community-area centroids
+9,10,Norwood Park,41.985015869140625,-87.80453491210938,median of published trip community-area centroids
+10,11,Jefferson Park,41.97882843017578,-87.77116394042969,median of published trip community-area centroids
+11,12,Forest Glen,41.99393081665039,-87.75835418701172,median of published trip community-area centroids
+12,13,North Park,41.98363494873047,-87.72357940673828,median of published trip community-area centroids
+13,14,Albany Park,41.96806716918945,-87.7215576171875,median of published trip community-area centroids
+14,15,Portage Park,41.95402908325195,-87.76339721679688,median of published trip community-area centroids
+15,16,Irving Park,41.953582763671875,-87.72344970703125,median of published trip community-area centroids
+16,17,Dunning,41.946510314941406,-87.80602264404297,median of published trip community-area centroids
+17,18,Montclare,41.929298400878906,-87.79803466796875,median of published trip community-area centroids
+18,19,Belmont Cragin,41.92726135253906,-87.7655029296875,median of published trip community-area centroids
+19,20,Hermosa,41.924346923828125,-87.7347412109375,median of published trip community-area centroids
+20,21,Avondale,41.93866729736328,-87.71121215820312,median of published trip community-area centroids
+21,22,Logan Square,41.922760009765625,-87.69915771484375,median of published trip community-area centroids
+22,23,Humboldt Park,41.90007019042969,-87.72091674804688,median of published trip community-area centroids
+23,24,West Town,41.901206970214844,-87.67635345458984,median of published trip community-area centroids
+24,25,Austin,41.89060974121094,-87.75605010986328,median of published trip community-area centroids
+25,26,West Garfield Park,41.87859344482422,-87.73023223876953,median of published trip community-area centroids
+26,27,East Garfield Park,41.87891387939453,-87.70589447021484,median of published trip community-area centroids
+27,28,Near West Side,41.87925338745117,-87.65723419189453,median of published trip community-area centroids
+28,29,North Lawndale,41.860191345214844,-87.71721649169922,median of published trip community-area centroids
+29,30,South Lawndale,41.839088439941406,-87.71400451660156,median of published trip community-area centroids
+30,31,Lower West Side,41.85026550292969,-87.66757202148438,median of published trip community-area centroids
+31,32,Loop,41.8809928894043,-87.62519073486328,median of published trip community-area centroids
+32,33,Near South Side,41.85934829711914,-87.61735534667969,median of published trip community-area centroids
+33,34,Armour Square,41.84207534790039,-87.63397216796875,median of published trip community-area centroids
+34,35,Douglas,41.83511734008789,-87.6186752319336,median of published trip community-area centroids
+35,36,Oakland,41.82371139526367,-87.60234832763672,median of published trip community-area centroids
+36,37,Fuller Park,41.809085845947266,-87.6324234008789,median of published trip community-area centroids
+37,38,Grand Boulevard,41.812950134277344,-87.61785888671875,median of published trip community-area centroids
+38,39,Kenwood,41.80891799926758,-87.59618377685547,median of published trip community-area centroids
+39,40,Washington Park,41.7923583984375,-87.61793518066406,median of published trip community-area centroids
+40,41,Hyde Park,41.794090270996094,-87.5923080444336,median of published trip community-area centroids
+41,42,Woodlawn,41.77887725830078,-87.59492492675781,median of published trip community-area centroids
+42,43,South Shore,41.76157760620117,-87.57278442382812,median of published trip community-area centroids
+43,44,Chatham,41.740203857421875,-87.615966796875,median of published trip community-area centroids
+44,45,Avalon Park,41.744197845458984,-87.58634948730469,median of published trip community-area centroids
+45,46,South Chicago,41.741241455078125,-87.55142974853516,median of published trip community-area centroids
+46,47,Burnside,41.72818374633789,-87.59647369384766,median of published trip community-area centroids
+47,48,Calumet Heights,41.72967529296875,-87.57271575927734,median of published trip community-area centroids
+48,49,Roseland,41.70658874511719,-87.62336730957031,median of published trip community-area centroids
+49,50,Pullman,41.70612716674805,-87.59825897216797,median of published trip community-area centroids
+50,51,South Deering,41.69063186645508,-87.57006072998047,median of published trip community-area centroids
+51,52,East Side,41.70730972290039,-87.53490447998047,median of published trip community-area centroids
+52,53,West Pullman,41.67382049560547,-87.6357421875,median of published trip community-area centroids
+53,54,Riverdale,41.66013717651367,-87.60284423828125,median of published trip community-area centroids
+54,55,Hegewisch,41.66366958618164,-87.54093170166016,median of published trip community-area centroids
+55,56,Garfield Ridge,41.7859992980957,-87.75093078613281,median of published trip community-area centroids
+56,57,Archer Heights,41.81087875366211,-87.72636413574219,median of published trip community-area centroids
+57,58,Brighton Park,41.81736755371094,-87.69886016845703,median of published trip community-area centroids
+58,59,McKinley Park,41.82992172241211,-87.67250061035156,median of published trip community-area centroids
+59,60,Bridgeport,41.836151123046875,-87.64878845214844,median of published trip community-area centroids
+60,61,New City,41.809017181396484,-87.65916442871094,median of published trip community-area centroids
+61,62,West Elsdon,41.7929801940918,-87.72420501708984,median of published trip community-area centroids
+62,63,Gage Park,41.79542922973633,-87.6964340209961,median of published trip community-area centroids
+63,64,Clearing,41.77958297729492,-87.76850891113281,median of published trip community-area centroids
+64,65,West Lawn,41.769779205322266,-87.7269287109375,median of published trip community-area centroids
+65,66,Chicago Lawn,41.771846771240234,-87.69566345214844,median of published trip community-area centroids
+66,67,West Englewood,41.77592849731445,-87.66659545898438,median of published trip community-area centroids
+67,68,Englewood,41.77719497680664,-87.64249420166016,median of published trip community-area centroids
+68,69,Greater Grand Crossing,41.763248443603516,-87.61613464355469,median of published trip community-area centroids
+69,70,Ashburn,41.745758056640625,-87.70836639404297,median of published trip community-area centroids
+70,71,Auburn Gresham,41.744205474853516,-87.65630340576172,median of published trip community-area centroids
+71,72,Beverly,41.71315002441406,-87.6750717163086,median of published trip community-area centroids
+72,73,Washington Heights,41.717491149902344,-87.64889526367188,median of published trip community-area centroids
+73,74,Mount Greenwood,41.69487762451172,-87.71319580078125,median of published trip community-area centroids
+74,75,Morgan Park,41.68973159790039,-87.66905212402344,median of published trip community-area centroids
+75,76,O'Hare,41.97907257080078,-87.90303802490234,median of published trip community-area centroids
+76,77,Edgewater,41.98671340942383,-87.66341400146484,median of published trip community-area centroids
